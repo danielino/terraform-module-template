@@ -1,0 +1,47 @@
+formatter: markdown table
+
+header-from: "docs/.header.md"
+
+recursive:
+  enabled: false
+
+sections:
+  show:
+    - header
+    - requirements
+    - providers
+    - inputs
+    - outputs
+    - modules
+    - resources
+    - data-sources
+    - footer
+
+content: |-
+  {{ .Header }}
+
+  {{ .Requirements }}
+
+  {{ .Providers }}
+
+  {{ .Inputs }}
+
+  {{ .Outputs }}
+
+  {{ .Modules }}
+
+  {{ .Resources }}
+
+  ## Examples
+
+  ```hcl
+  {{ include "tests/main.tf" }}
+  ```
+
+  ## Contributing
+
+  {{ include "docs/CONTRIBUTING.md" }}
+
+  ## Changelog
+
+  {{ include "CHANGELOG.md" }}

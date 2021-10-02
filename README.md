@@ -1,6 +1,7 @@
-# module-temlpate
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+# module-template
 
-[[_TOC_]]
+[[\_TOC\_]]
 
 ## Requirements
 
@@ -10,6 +11,14 @@ No requirements.
 
 No providers.
 
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
+
 ## Modules
 
 No modules.
@@ -18,10 +27,39 @@ No modules.
 
 No resources.
 
-## Inputs
+## Examples
 
-No Inputs.
+```hcl
+/*
+provider "" {
 
-## Outputs
+}
+*/
 
-No outputs.
+```
+
+## Contributing
+
+* setup pre-commit
+
+    ```bash
+    pip3 install pre-commiot
+    ```
+
+* install hooks
+
+    ```bash
+    pre-commit install
+    ```
+
+* (Optional) - Run against all the files
+
+    ```bash
+    pre-commit run --all-files
+    ```
+
+
+## Changelog
+
+
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
