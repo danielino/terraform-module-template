@@ -1,0 +1,9 @@
+*.tfst*
+.terraform
+*.lck
+*.lock*
+*.backup
+*.hcl
+*.plan
+.idea
+*.auto.tfvars
