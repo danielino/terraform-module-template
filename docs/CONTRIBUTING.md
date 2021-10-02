@@ -1,7 +1,7 @@
 * setup pre-commit
 
     ```bash
-    pip3 install pre-commiot
+    pip3 install pre-commit
     ```
 
 * install hooks
