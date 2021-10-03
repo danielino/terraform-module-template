@@ -45,3 +45,6 @@ content: |-
   ## Changelog
 
   {{ include "CHANGELOG.md" }}
+
+settings:
+  escape: false

@@ -1,2 +1,2 @@
 include:
-  - 'http://path/to/gitlabci'
+  - "http://gitlab.labs.local/terraform/cicd-pipelines/-/raw/main/terraform-pipeline.yml"
