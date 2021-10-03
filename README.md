@@ -1,7 +1,7 @@
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 # module-template
 
-[[\_TOC\_]]
+[[_TOC_]]
 
 ## Requirements
 
