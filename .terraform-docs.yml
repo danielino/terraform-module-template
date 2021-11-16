@@ -32,8 +32,6 @@ content: |-
 
   {{ .Resources }}
 
-  {{ .DataSources }}
-
   {{ .Footer }}
 
   ```hcl
